@@ -31,11 +31,14 @@ function pesquisar() {
                       </div>
           
           `
-        }else{
-            resultados= "Nada foi encontrado"
+        }
 
         }
-        
+        if(!resultados){
+           resultados= "Nada foi encontrado"
+
+    }
+    
 
     }
     
