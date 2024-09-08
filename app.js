@@ -32,13 +32,11 @@ function pesquisar() {
           
           `
         }
-
-        }
-        if(!resultados){
-           resultados= "Nada foi encontrado"
+        
 
     }
-    
+    if(!resultados){
+        resultados= "Nada foi encontrado"
 
     }
     
